@@ -1,5 +1,9 @@
 <template>
-  <sample :title="indexTitle" />
+  <sample :title="indexTitle">
+    <div class="come">
+      slot example
+    </div>
+  </sample>
 </template>
 
 <script>

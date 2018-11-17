@@ -9,6 +9,9 @@
       type="button"
       name="button"
       @click="plus">click times: {{ num }}</button>
+    <div class="slot">
+      <slot />
+    </div>
     <div :class="['hide', { seven: num === 7 }]">
       click 7 times
     </div>
@@ -51,5 +54,8 @@ export default {
   &.seven {
     display: block;
   }
+}
+.slot {
+  color: red;
 }
 </style>
