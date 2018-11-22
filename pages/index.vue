@@ -1,7 +1,8 @@
 <template>
   <sample :title="indexTitle">
-    <div class="come">
-      slot example
+    Hello slot!
+    <div slot="named">
+      named slot
     </div>
   </sample>
 </template>
