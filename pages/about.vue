@@ -3,7 +3,16 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'ABOUT',
+      meta: [
+        { hid: 'description', name: 'description', content: 'About ページ' }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss">
