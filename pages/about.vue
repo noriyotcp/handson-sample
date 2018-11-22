@@ -11,7 +11,8 @@ export default {
         { hid: 'description', name: 'description', content: 'About ページ' }
       ]
     }
-  }
+  },
+  layout: 'dark'
 }
 </script>
 
