@@ -1,10 +1,13 @@
 <template>
-  <sample :title="indexTitle">
-    Hello slot!
-    <div slot="named">
-      named slot
-    </div>
-  </sample>
+  <div>
+    <sample :title="indexTitle">
+      Hello slot!
+      <div slot="named">
+        named slot
+      </div>
+    </sample>
+    <nuxt-link to="/about">ABOUT</nuxt-link>
+  </div>
 </template>
 
 <script>
